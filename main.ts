@@ -1,7 +1,8 @@
+//quest1
 export function comparar(a:string[], b:string[]) {
     return a.length === b.length && a.every((value, index) => value === b[index]);
 }
-
+//quest2
 export function quest2(a: string[], b: string[]): (string | undefined)[] | undefined {
     if (a.length !== b.length) {
       return undefined;
@@ -19,7 +20,7 @@ export function quest2(a: string[], b: string[]): (string | undefined)[] | undef
     return result;
   }
 
-
+//quest3
   export const receberParametros = (arr1: string[], arr2: string[]): boolean =>{
 
     if (arr1.length !== arr2.length) {
@@ -29,6 +30,7 @@ export function quest2(a: string[], b: string[]): (string | undefined)[] | undef
     }
   }
 
+  //quest4
   export function compareArrays(a: string[][], b: string[][]): (string | undefined)[][] {
     const result: (string | undefined)[][] = [];
   
